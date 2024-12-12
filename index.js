@@ -6,8 +6,8 @@
 //fetch ( url, {method: options})
 
 
-fetch("https://pokeapi.co/api/v2/pokemon/ditto")
-  .then (response => response.json());
+fetch("https://pokeapi.co/api/v2/pokemon/ditto");
+  //then (response => response.json());
   //.then (response => console.log(response));
   //.then(data => console.log(data.weight));
   //.catch(error => console.error(error));
